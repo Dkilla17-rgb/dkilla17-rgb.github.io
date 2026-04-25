@@ -1,5 +1,4 @@
-
-    * {
+ * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -78,25 +77,6 @@
       gap: 20px;
     }
 
-    .connect{
-      
-    }
-
-    .connect-more{
-      justify-content:center;
-      align-items: center;
-      gap:20px;
-      display: flex;
-      font-family:times new roman;
-      font-size:20px;
-      color: #38bdf8;
-     
-    }
-    .phone-and0-mails{
-      color: #38bdf8;
-    }
-  
-
     .card {
       background: #1e293b;
       padding: 20px;
@@ -107,6 +87,25 @@
     .card:hover {
       transform: translateY(-5px);
     }
+    strong{
+        color:#38bdf8;
+        margin-right: 10px;
+        margin-left:10px;
+        
+        
+    }
+   
+    
+    .connect{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap:20px;
+       margin-bottom:10px;
+        font-weight:bold;
+        font-size:20px;
+    }
+   
 
     footer {
       text-align: center;
